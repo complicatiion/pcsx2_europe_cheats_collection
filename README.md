@@ -32,7 +32,7 @@ xs1l3n7x Collection : https://github.com/xs1l3n7x/pcsx2\_cheats\_collection/tree
 
 
 
-Many cheats are acquired from sites such as, many thanks to the community members at this point, further information is always commented on in the .pnach files.
+Many cheats are acquired from sites such as
 
 
 
@@ -40,6 +40,10 @@ Many cheats are acquired from sites such as, many thanks to the community member
 * circuit-board
 * interactive-forums
 * psxtools
+
+
+
+Many thanks to the community members at this point, further information is always commented on in the .pnach files.
 
 
 
