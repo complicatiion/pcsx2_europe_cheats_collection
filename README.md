@@ -16,6 +16,14 @@ This means you can use the game properties in spcsx2 to check exactly which game
 
 
 
+Example: SLES-53558\_1FA82CDF.pnach = Need for Speed - Most Wanted (PAL)
+
+
+
+Many of the cheats are compatible with other versions/regions, so you can try renaming them to your region code and CRC, and with luck they will work.
+
+
+
 ## Info: US/SLUS pcsx2\_cheats\_collection (by xs1l3n7x)
 
 
@@ -61,15 +69,15 @@ Extract the .pnach files within the .zip file into you PCSX2 "cheats" folder
 
 ## 
 
-## Complete List - 08-03-2026 (note: uncomplete):
+## Complete List - 08-03-2026 currently 115 Cheats (List uncomplete):
 
 
 
 |Game Title|Region Code|CRC (game specific)|
 |-|-|-|
-|10,000 Bullets|None|EF97EC8F|
-|187 Ride Or Die|SLES-52276|83BE7C8E|
-||||
+|Need for Speed - Most Wanted (PAL)|SLES-53558|1FA82CDF|
+|GoldenEye - Rogue Agent (PAL)|SLES-52976|3BEBCCAC|
+|Need for Speed - Underground 2 (PAL-E)|SLES-52725|0197EBD0|
 
 
 
