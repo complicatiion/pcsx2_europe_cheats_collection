@@ -61,7 +61,7 @@ Extract the .pnach files within the .zip file into you PCSX2 "cheats" folder
 
 
 
-|Game Title|Serial|CRC|
+|Game Title|Region Code|CRC (game specific)|
 |-|-|-|
 |10,000 Bullets|None|EF97EC8F|
 |187 Ride Or Die|SLES-52276|83BE7C8E|
