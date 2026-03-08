@@ -1,0 +1,71 @@
+gametitle=Test Drive Unlimited [SLES-54466] (PAL) [CRC=C2911A79]
+
+///////////////////////////////////////////////////////////////////////////
+// FIXES (empfohlen)
+///////////////////////////////////////////////////////////////////////////
+
+// COP2 Patch (Fix: kaputte Physik bei Kollisionen) – aus PCSX2 GameIndex
+comment=COP2 Patch author=Fobes
+patch=1,EE,00B844B4,word,48428000
+patch=1,EE,00B844B8,word,4BC0085C
+patch=1,EE,00B84514,word,48428000
+patch=1,EE,00B84518,word,4BC0085C
+patch=1,EE,00B7FC48,word,48438000
+patch=1,EE,00B7FC4C,word,4BC0085C
+patch=1,EE,00B81804,word,48438000
+patch=1,EE,00B81808,word,4BC0319C
+patch=1,EE,00288D2C,word,48438000
+patch=1,EE,00288D30,word,4BC0109C
+
+// Trigger controls mapping (Gas/Bremse auf R2/L2) – Silent/CookiePLMonster
+comment=Trigger controls mapping author=Silent
+// Select a (previously unused) controls set 2
+patch=0,EE,20392CC0,extended,34050002
+// Swap bumpers and triggers
+patch=0,EE,104E6C76,extended,4142  // BACK
+patch=0,EE,204E6C78,extended,00004B43
+patch=0,EE,104E6C96,extended,4142  // BACK
+patch=0,EE,204E6C98,extended,00004B43
+patch=0,EE,104E6CB6,extended,4F46  // FORWARD
+patch=0,EE,204E6CB8,extended,52415752
+patch=0,EE,104E6CBC,extended,0044
+patch=0,EE,104E6CD6,extended,4F46  // FORWARD
+patch=0,EE,204E6CD8,extended,52415752
+patch=0,EE,104E6CDC,extended,0044
+patch=0,EE,004E6978,extended,30    // BUTTON_10
+patch=0,EE,004E6998,extended,31    // BUTTON_11
+patch=0,EE,004E69B8,extended,32    // BUTTON_12
+patch=0,EE,004E69D8,extended,33    // BUTTON_13
+
+///////////////////////////////////////////////////////////////////////////
+// CHEATS (optional) – bei Bedarf aktivieren (// entfernen)
+///////////////////////////////////////////////////////////////////////////
+
+// --- Money / Shopping ---
+
+// [ON] Everything is free (Skillers Visa) – Geld wird nicht abgezogen
+//patch=1,EE,203B81BC,word,00000000
+//patch=1,EE,203CBB38,word,00000000
+//patch=1,EE,203678D8,word,00000000
+//patch=1,EE,20437EB4,word,00000000
+//patch=1,EE,20437DD4,word,00000000
+
+// [ON] Yes/No Menü beim Hauskauf setzt Max Money (du musst NICHT kaufen)
+//patch=1,EE,203678D8,word,08028000
+//patch=1,EE,200A0000,word,8C520020
+//patch=1,EE,200A0004,word,3C0E05F5
+//patch=1,EE,200A0008,word,35CEE0FF
+//patch=1,EE,200A000C,word,AC4E0020
+//patch=1,EE,200A0010,word,080D9E37
+
+// [ON] Max Cash after paint job (setzt Code so, dass Lackieren Max Cash gibt)
+//patch=1,EE,203BACA4,word,3C0505F0
+
+// [ON] Max/Inf Money (HINWEIS: kann „wandern“ je nach Session)
+//patch=1,EE,21ABC6E8,word,05F5E0FF
+
+// --- Time ---
+
+// [ON] Car rental infinite time
+//patch=1,EE,2037FA70,word,00000000
+

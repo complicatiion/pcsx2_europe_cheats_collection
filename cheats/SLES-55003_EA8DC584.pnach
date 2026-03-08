@@ -1,0 +1,21 @@
+// Need for Speed: ProStreet (PAL - SLES-55003)
+// CRC: C071D4C1 (Verify this in your PCSX2 console log)
+
+// Mastercode (Required)
+patch=1,EE,F0100008,extended,0012A34C
+
+// Max Cash
+patch=1,EE,20686950,extended,05F5E0FF
+
+// Infinite Repair Markers
+patch=1,EE,10686968,extended,00000005
+
+// Unlock All Cars/Items
+patch=1,EE,20686970,extended,FFFFFFFF
+patch=1,EE,20686974,extended,FFFFFFFF
+
+// No Damage
+patch=1,EE,201D8180,extended,00000000
+
+// Freeze Timer (Drag/Race)
+patch=1,EE,201A511C,extended,00000000

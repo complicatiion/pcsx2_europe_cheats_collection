@@ -1,0 +1,22 @@
+// Need for Speed: Undercover (PS2) PAL - Codes als PNACH
+// Datei: SLES-55350_2FCBAB60.pnach
+
+// Buying Parts Doesn't Decrease Cash
+patch=1,EE,2060C298,word,24060000
+patch=1,EE,2060C2B8,word,24060000
+
+// Buying Parts Increases Cash (nicht gleichzeitig mit obigem nutzen!)
+;patch=1,EE,2060C298,word,0220302D
+;patch=1,EE,2060C2B8,word,0220302D
+
+// Infinite NOS Usage
+patch=1,EE,20416178,word,00000000
+
+// Freeze Timers
+patch=1,EE,20459B2C,word,00000000
+
+// Infinite Speedbreaker
+patch=1,EE,2045B6F8,word,00000000
+
+// Open All Parts/Cars/Races/Challenges (laut Quelle "not saveable" – kann Save/Progress zerschießen)
+patch=1,EE,00690594,byte,00000001
