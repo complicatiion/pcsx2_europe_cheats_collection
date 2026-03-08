@@ -69,9 +69,9 @@ Extract the .pnach files within the .zip file into you PCSX2 "cheats" folder
 
 ## 
 
-## Complete List - 08-03-2026:  
+## Complete List - 08-03-2026:
 
-## currently 115 Games with Cheats (Note: Game-List is uncomplete)
+### currently 115 Games with Cheats (Note: Game-List is uncomplete)
 
 
 
